@@ -1,0 +1,39 @@
+body{
+background-color:#a8faa8;
+
+
+}
+h1 {
+  
+    height: 100px;
+    font-size: 40px;
+    display:flex;
+     justify-content: center;
+
+} 
+
+img {
+  height:400px;
+  width: 100px;
+  display:flex;
+opacity: 50%;
+  }
+
+  #main { 
+    display:flex
+    }
+#sidebar {
+    height: 400px;
+    width: 150px;
+    border: 2px solid black;
+    padding: 0px;
+    display:flex;
+flex-direction: column;
+justify-content: left;
+align-content: center;
+background-color: #a8faa8;
+}
+nav ul a {
+  color: rgb(8, 8, 192) ;
+}
+@media (max-width 300px) and (min-width 200px)
